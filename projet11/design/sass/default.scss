@@ -1,0 +1,60 @@
+
+$primaryColor:  orange;
+
+@import  'header';
+
+
+body {
+   background-color: yellow; 
+    
+    
+}
+
+
+    
+
+  /* tracé la  logique    */
+footer  {
+    padding: 50px;
+    background-color: $primaryColor ;
+    
+    
+    
+
+  /* tracé la  logique    */
+span {
+    color:  white;
+    
+    
+
+     /* tracé la  logique    */
+    &:hover {
+        text-decoration:underline;
+
+}
+}
+
+}
+
+/* traceé   ma  logique  */
+%alert {
+padding:  15px;
+    border: 1px  solid red;
+    color:  white; 
+    
+   
+}
+
+/* traceé   ma  logique  */
+.alert-green  {
+    @extend %alert ;
+    background-color: green; 
+}
+    
+/* traceé   ma  logique  */
+.alert-red {
+     @extend %alert ;
+    background-color: red;
+   
+    
+}

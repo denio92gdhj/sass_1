@@ -1,0 +1,35 @@
+@charset "UTF-8";
+header {
+  padding: 50px;
+  background-color: orange;
+  margin-bottom: 500px; }
+
+body {
+  background-color: yellow; }
+
+/* trac├® la  logique    */
+footer {
+  padding: 50px;
+  background-color: orange;
+  /* trac├® la  logique    */ }
+  footer span {
+    color: white;
+    /* trac├® la  logique    */ }
+    footer span:hover {
+      text-decoration: underline; }
+
+/* trace├®   ma  logique  */
+.alert-green, .alert-red {
+  padding: 15px;
+  border: 1px  solid red;
+  color: white; }
+
+/* trace├®   ma  logique  */
+.alert-green {
+  background-color: green; }
+
+/* trace├®   ma  logique  */
+.alert-red {
+  background-color: red; }
+
+/*# sourceMappingURL=default.css.map */
